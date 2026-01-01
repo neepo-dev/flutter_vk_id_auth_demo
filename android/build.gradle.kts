@@ -28,11 +28,7 @@ if (localPropertiesFile.exists()) {
 
 vkidManifestPlaceholders {
     init(
-        clientId = "54294664",
-        clientSecret = localProperties["VKID_CLIENT_SECRET"] as String,
+        clientId = localProperties["VKIDClientID"] as String,
+        clientSecret = localProperties["VKIDClientSecret"] as String,
     )
-    vkidRedirectHost = "vk.ru"
-    vkidRedirectScheme = "vk54294664"
-    vkidClientId = "54294664"
-    vkidClientSecret = localProperties["VKID_CLIENT_SECRET"] as String
 }
