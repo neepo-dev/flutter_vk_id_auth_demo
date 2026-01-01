@@ -1,16 +1,19 @@
-# flutter_vk_id_auth_demo
+# Flutter VK ID Auth Demo
 
-Flutter VK ID Auth Demo.
+Демо-приложение Flutter для Android с авторизацией через **VK ID One Tap**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Возможности
 
-A few resources to get you started if this is your first Flutter project:
+- Авторизация через VK ID (One Tap)
+- Хранение токена и данных пользователя в Secure Storage
+- Управление состоянием через Cubit
+- Extension на BuildContext для быстрого доступа к `User`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ссылки
+
+- [VK ID Flutter SDK](https://pub.dev/packages/vkid_flutter_sdk)
+- [Документация VK ID](https://id.vk.com/about/business/go/docs/ru/vkid/latest/vk-id/connection/create-application)
