@@ -13,7 +13,17 @@
 
 ---
 
-## Ссылки
+### Комментарии
+
+- Храним в `/android/local.properties` константы с данными приложения VK, пример:
+  - `VKIDRedirectHost=vk.ru`
+  - `VKIDRedirectScheme=vk12345678`
+  - `VKIDClientID=12345678`
+  - `VKIDClientSecret=blahblahboobooboo`
+
+---
+
+### Ссылки
 
 - [VK ID Flutter SDK](https://pub.dev/packages/vkid_flutter_sdk)
 - [Документация VK ID](https://id.vk.com/about/business/go/docs/ru/vkid/latest/vk-id/connection/create-application)
